@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--FAVICON-->
+
+    <!--REMIX ICONS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--SWIPPER CSS-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Tourist - Agência de Turismo</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Viagem</a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#discover" class="nav-link">Descubra</a>
+            </li>
+            <li class="nav-item">
+              <a href="#place" class="nav-link">Lugares</a>
+            </li>
+          </ul>
+
+          <i class="ri-close-line nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--HOME-->
+      <section class="home" id="home">
+        <img
+          src="./assets/img/Foto de Blaque X no Pexels.jpg"
+          alt="Foto de Tim Gouw no Pexels"
+          class="home_img"
+        />
+
+        <div class="home_container container grid">
+          <div class="home_data">
+            <span class="home_data-subtitle">DESCUBRA NOVOS LUGARES</span>
+            <h1 class="home_data-title">
+              Explore as <br />
+              Melhores e Mais <br />
+              Bonitas Prais
+            </h1>
+            <a href="#" class="button">Explore</a>
+          </div>
+
+          <div class="home_social">
+            <a href="" target="_blank" class="home_social-link">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="" target="_blank" class="home_social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="" target="_blank" class="home_social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+
+          <div class="home_info">
+            <div>
+              <span class="home_info-title">
+                Os 5 Melhores lugares para visitar
+              </span>
+              <a
+                href=""
+                class="button button--flex button--link home_info-button"
+              >
+                Mais <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home_info-overlay">
+              <img
+                src="./assets/img/mikhail.jpg"
+                alt="Foto de Mikhail Nilov no Pexels"
+                class="home_info-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--ABOUT-->
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <div class="about_data">
+            <h2 class="section_title about_title">
+              Mais Informações<br />
+              Sobre as Melhores Prais
+            </h2>
+            <p class="about_description">
+              Você pode encontrar os mais bonitos e prazerosos lugares com os
+              <b>melhores preços e descontos especiais</b>. Escolha o lugar e
+              nós o guiaremos por todo o caminho. <b>Não perca tempo!</b>
+            </p>
+            <a href="#" class="button">Reserve sua viagem</a>
+          </div>
+
+          <div class="about_img">
+            <div class="about_img-overlay">
+              <img
+                src="./assets/img/Foto de Belle Co no Pexels.jpg"
+                alt=""
+                class="about_img-one"
+              />
+            </div>
+
+            <div class="about_img-overlay">
+              <img
+                src="./assets/img/Foto de Daniel Gorostieta Pexels.jpg"
+                alt=""
+                class="about_img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--DISCOVER-->
+      <section class="discover section" id="discover">
+        <h2 class="section_title">Descubra Os Lugares Mais Bonitos</h2>
+
+        <div class="discover_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- DISCOVER 1-->
+            <div class="discover_card swiper-slide">
+                <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
+                <div class="discover_data">
+                  <h2 class="discover_title">Bali</h2>
+                  <span class="discover_description">18 Tours Disponíveis</span>
+                </div>            
+            </div>
+            <!-- DISCOVER 2-->
+            <div class="discover_card swiper-slide">
+              <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
+              <div class="discover_data">
+                <h2 class="discover_title">Bali</h2>
+                <span class="discover_description">18 Tours Disponíveis</span>
+              </div>            
+          </div>
+          <!-- DISCOVER 3-->
+          <div class="discover_card swiper-slide">
+            <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
+            <div class="discover_data">
+              <h2 class="discover_title">Bali</h2>
+              <span class="discover_description">18 Tours Disponíveis</span>
+            </div> 
+            
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- DISCOVER 4-->
+        <div class="discover_card swiper-slide">
+          <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
+          <div class="discover_data">
+            <h2 class="discover_title">Bali</h2>
+            <span class="discover_description">18 Tours Disponíveis</span>
+          </div>            
+      </div>
+      
+        </div>
+      </section>
+
+      <!--EXPERIENCE-->
+      <section class="experience section">
+        <h2 class="section_title">Com a nossa experiência<br> nós o guiaremos</h2>
+        <div class="experience_container container grid">
+          <div class="experience_content grid">
+
+            <div class="experience_data">
+              <h2 class="experience_number">20</h2>
+              <span class="experience_description">Anos de Experiência</span>
+            </div>
+
+            <div class="experience_data">
+              <h2 class="experience_number">50</h2>
+              <span class="experience_description">Tours concluídos</span>
+            </div>
+
+            <div class="experience_data">
+              <h2 class="experience_number">100+</h2>
+              <span class="experience_description">Destinos turísticos</span>
+            </div>
+          </div>
+
+          <div class="experience_img grid">
+            <div class="experience_overlay">
+              <img src="assets/img/jess.jpg" alt="" class="experience_img-one">
+            </div>
+
+            <div class="experience_overlay">
+              <img src="assets/img/jess.jpg" alt="" class="experience_img-one">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--VIDEO-->
+      <section class="video section">
+        <h2 class="section_title">Video Tour</h2>
+        <div class="video_container container">          
+        <p class="video_description">Veja um dos nossos videos turisticos</p>
+
+        <div class="video_content">
+          <video id="video-file">
+            <source src="assets/video/natureza.mp4" type="video/mp4">
+          </video>
+
+          <button class="button button--flex video_button" id="video-button">
+            <i class="ri-play-line video_button-icon" id="video-icon"></i>
+          </button>
+        </div>
+        </div>
+      </section>
+
+      <!--PLACES -->
+      <section class="place section" id="place">
+        <h2 class="section_title">Escolha seu destino</h2>
+
+        <div class="place_container container grid">
+          <!--- PLACES CARD 1-->
+          <div class="place_card">
+            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bali</h3>
+                <span class="place_subtitle">Indonesia</span>
+                <span class="place_price">R$ 2199</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+          </div>
+
+          <!--- PLACES CARD 2-->
+          <div class="place_card">
+            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bali</h3>
+                <span class="place_subtitle">Indonesia</span>
+                <span class="place_price">R$ 2199</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+          </div>
+
+          <!--- PLACES CARD 3-->
+          <div class="place_card">
+            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bali</h3>
+                <span class="place_subtitle">Indonesia</span>
+                <span class="place_price">R$ 2199</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+          </div>
+
+          <!--- PLACES CARD 4-->
+          <div class="place_card">
+            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bali</h3>
+                <span class="place_subtitle">Indonesia</span>
+                <span class="place_price">R$ 2199</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+          </div>
+
+          <!--- PLACES CARD 5-->
+          <div class="place_card">
+            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Bali</h3>
+                <span class="place_subtitle">Indonesia</span>
+                <span class="place_price">R$ 2199</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <!--SUBSCRIBE-->
+      <section class="subscribe section">
+        <div class="subscribe_bg">
+          <div class="subscribe_container container">
+            <h2 class="section_title subscribe_title">Se inscreva para receber <br>nossas novidades.</h2>
+            <p class="subscribe_description">Se inscreva</p>
+
+            <form action="" class="subscribe_form">
+              <input type="text" placeholder='Digite seu email' class="subscribe_input">
+
+              <button class="button">Se inscreva</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--SPONSORS-->
+      <section class="sponsor section">
+        <div class="sponsor_container container grid">
+          <div class="sponsor_content">
+            <img src="assets/img/sponsor1.png" alt="" class="sponsor_img">
+          </div>
+          <div class="sponsor_content">
+            <img src="assets/img/sponsors2.png" alt="" class="sponsor_img">
+          </div>
+          <div class="sponsor_content">
+            <img src="assets/img/sponsors3.png" alt="" class="sponsor_img">
+          </div>
+          <div class="sponsor_content">
+            <img src="assets/img/sponsors4.png" alt="" class="sponsor_img">
+          </div>
+          <div class="sponsor_content">
+            <img src="assets/img/sponsors5.png" alt="" class="sponsor_img">
+          </div>
+
+          
+          
+        </div>
+      </section>
+
+      
+    </main>
+    <!--FOOTER-->
+    <footer class="footer section">
+      <div class="footer_container container grid">
+        <div class="footer_content grid">
+          <div class="footer_data">
+            <h3 class="footer_title">Travel</h3>
+            <p class="footer_description">
+              Na Tourist você escolhe seu destino e o levaremos!
+            </p>
+
+            <div>
+              <a href="" target="_blank" class="footer_social">
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+              <a href="" target="_blank" class="footer_social">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="" target="_blank" class="footer_social">
+                <i class="ri-github-fill"></i>
+              </a>
+              <a href="" target="_blank" class="footer_social">
+                <i class="ri-youtube-fill"></i>
+              </a>              
+            </div>
+          </div>
+
+          <div class="footer_data">
+            <h3 class="footer_subtitle">Sobre</h3>
+            <ul>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Sobre nós</a>
+              </li>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Features</a>
+              </li>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Novidades</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_data">
+            <h3 class="footer_subtitle">Companhia</h3>
+            <ul>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Equipe</a>
+              </li>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Planos e preços</a>
+              </li>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Torne-se um membro</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_data">
+            <h3 class="footer_subtitle">Suporte</h3>
+            <ul>
+              <li class="footer_item">
+                <a href="#" class="footer_link">FAQs</a>
+              </li>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Central de Suporte</a>
+              </li>
+              <li class="footer_item">
+                <a href="#" class="footer_link">Contato</a>
+              </li>
+            </ul>
+          </div>       
+
+         
+        </div>
+
+        <div class="footer_rights">
+          <p class="footer_copy">@2021 Matheus Henrique de Oliveira. Todos os direitos Reservados.</p>
+          <div class="footer_terms">
+            <a href="#" class="footer_terms-link">Termos & Acordos</a>
+            <a href="#" class="footer_terms-link">Politica de privacidade</a>            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--SCROLL REVEAL-->
+
+    <!--SWIPPER JS-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--MAIN JS-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
