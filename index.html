@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--FAVICON-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-16x16.png"
+      type="image/x-icon"
+    />
 
     <!--REMIX ICONS-->
     <link
@@ -24,7 +29,7 @@
   <body>
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav_logo">Viagem</a>
+        <a href="#" class="nav_logo">TOURIST</a>
 
         <div class="nav_menu" id="nav-menu">
           <ul class="nav-list">
@@ -38,9 +43,17 @@
               <a href="#discover" class="nav-link">Descubra</a>
             </li>
             <li class="nav-item">
+              <a href="#experience" class="nav-link">Nossa Experiência</a>
+            </li>
+            <li class="nav-item">
               <a href="#place" class="nav-link">Lugares</a>
             </li>
           </ul>
+
+          <div class="nav_dark">
+            <span class="change-theme-name">Modo Dark</span>
+            <i class="ri-moon-line chenge-theme" id="theme-button"></i>
+          </div>
 
           <i class="ri-close-line nav_close" id="nav-close"></i>
         </div>
@@ -66,19 +79,31 @@
             <h1 class="home_data-title">
               Explore as <br />
               Melhores e Mais <br />
-              Bonitas Prais
+              Bonitas Praias
             </h1>
-            <a href="#" class="button">Explore</a>
+            <a href="#about" class="button">Explore</a>
           </div>
 
           <div class="home_social">
-            <a href="" target="_blank" class="home_social-link">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="home_social-link"
+            >
               <i class="ri-facebook-box-fill"></i>
             </a>
-            <a href="" target="_blank" class="home_social-link">
+            <a
+              href="https://www.instagram.com/matheus.olli23/"
+              target="_blank"
+              class="home_social-link"
+            >
               <i class="ri-instagram-fill"></i>
             </a>
-            <a href="" target="_blank" class="home_social-link">
+            <a
+              href="https://github.com/matheusOliv23"
+              target="_blank"
+              class="home_social-link"
+            >
               <i class="ri-github-fill"></i>
             </a>
           </div>
@@ -108,12 +133,12 @@
       </section>
 
       <!--ABOUT-->
-      <section class="about section" id="about">
+      <section class="section about" id="about">
         <div class="about_container container grid">
           <div class="about_data">
             <h2 class="section_title about_title">
               Mais Informações<br />
-              Sobre as Melhores Prais
+              Sobre as Melhores Praias
             </h2>
             <p class="about_description">
               Você pode encontrar os mais bonitos e prazerosos lugares com os
@@ -134,9 +159,9 @@
 
             <div class="about_img-overlay">
               <img
-                src="./assets/img/Foto de Daniel Gorostieta Pexels.jpg"
-                alt=""
-                class="about_img-two"
+                src="./assets/img/alex.jpg"
+                alt="Foto de alex do Pexels"
+                class="about_img-one"
               />
             </div>
           </div>
@@ -151,48 +176,55 @@
           <div class="swiper-wrapper">
             <!-- DISCOVER 1-->
             <div class="discover_card swiper-slide">
-                <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
-                <div class="discover_data">
-                  <h2 class="discover_title">Bali</h2>
-                  <span class="discover_description">18 Tours Disponíveis</span>
-                </div>            
+              <img
+                src="./assets/img/praia-da-nazare.jpg"
+                alt=""
+                class="discover_img"
+              />
+              <div class="discover_data">
+                <h2 class="discover_title">Praia da Nazaré - Portugal</h2>
+                <span class="discover_description">18 Tours Disponíveis</span>
+              </div>
             </div>
             <!-- DISCOVER 2-->
             <div class="discover_card swiper-slide">
-              <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
+              <img
+                src="./assets/img/praia-da-luz.jpg"
+                alt=""
+                class="discover_img"
+              />
               <div class="discover_data">
-                <h2 class="discover_title">Bali</h2>
+                <h2 class="discover_title">Praia da Luz - Portugal</h2>
                 <span class="discover_description">18 Tours Disponíveis</span>
-              </div>            
+              </div>
+            </div>
+
+            <!-- DISCOVER 4-->
+            <div class="discover_card swiper-slide">
+              <img
+                src="./assets/img/praia-de-palmas.jpg"
+                alt=""
+                class="discover_img"
+              />
+              <div class="discover_data">
+                <h2 class="discover_title">Praia de Palmas - SC</h2>
+                <span class="discover_description">18 Tours Disponíveis</span>
+              </div>
+            </div>
+           
+           
           </div>
-          <!-- DISCOVER 3-->
-          <div class="discover_card swiper-slide">
-            <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
-            <div class="discover_data">
-              <h2 class="discover_title">Bali</h2>
-              <span class="discover_description">18 Tours Disponíveis</span>
-            </div> 
-            
-            <div class="swiper-pagination"></div>
-        </div>
-        <!-- DISCOVER 4-->
-        <div class="discover_card swiper-slide">
-          <img src="./assets/img/alex.jpg" alt="" class="discover_img" />
-          <div class="discover_data">
-            <h2 class="discover_title">Bali</h2>
-            <span class="discover_description">18 Tours Disponíveis</span>
-          </div>            
-      </div>
-      
         </div>
       </section>
 
       <!--EXPERIENCE-->
-      <section class="experience section">
-        <h2 class="section_title">Com a nossa experiência<br> nós o guiaremos</h2>
+      <section class="experience section" id="experience">
+        <h2 class="section_title">
+          Com a nossa experiência<br />
+          nós o guiaremos
+        </h2>
         <div class="experience_container container grid">
           <div class="experience_content grid">
-
             <div class="experience_data">
               <h2 class="experience_number">20</h2>
               <span class="experience_description">Anos de Experiência</span>
@@ -211,13 +243,16 @@
 
           <div class="experience_img grid">
             <div class="experience_overlay">
-              <img src="assets/img/jess.jpg" alt="" class="experience_img-one">
+              <img
+                src="assets/img/jess.jpg"
+                alt=""
+                class="experience_img-one"
+              />
             </div>
 
             <div class="experience_overlay">
-              <img src="assets/img/jess.jpg" alt="" class="experience_img-one">
+              <img src="assets/img/tim.jpg" alt="" class="experience_img-one" />
             </div>
-
           </div>
         </div>
       </section>
@@ -225,18 +260,18 @@
       <!--VIDEO-->
       <section class="video section">
         <h2 class="section_title">Video Tour</h2>
-        <div class="video_container container">          
-        <p class="video_description">Veja um dos nossos videos turisticos</p>
+        <div class="video_container container">
+          <p class="video_description">Veja um dos nossos videos turisticos</p>
 
-        <div class="video_content">
-          <video id="video-file">
-            <source src="assets/video/natureza.mp4" type="video/mp4">
-          </video>
+          <div class="video_content">
+            <video id="video-file">
+              <source src="assets/video/natureza.mp4" type="video/mp4" />
+            </video>
 
-          <button class="button button--flex video_button" id="video-button">
-            <i class="ri-play-line video_button-icon" id="video-icon"></i>
-          </button>
-        </div>
+            <button class="button button--flex video_button" id="video-button">
+              <i class="ri-play-line video_button-icon" id="video-icon"></i>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -247,7 +282,7 @@
         <div class="place_container container grid">
           <!--- PLACES CARD 1-->
           <div class="place_card">
-            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+            <img src="assets/img/thayran.jpg" alt="" class="place_img" />
 
             <div class="place_content">
               <span class="place_rating">
@@ -262,12 +297,18 @@
               </div>
             </div>
 
-            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
           </div>
 
           <!--- PLACES CARD 2-->
           <div class="place_card">
-            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+            <img
+              src="assets/img/praia-farol-de-itapua.jpg"
+              alt=""
+              class="place_img"
+            />
 
             <div class="place_content">
               <span class="place_rating">
@@ -276,18 +317,20 @@
               </span>
 
               <div class="place_data">
-                <h3 class="place_title">Bali</h3>
-                <span class="place_subtitle">Indonesia</span>
+                <h3 class="place_title">Farol de Itapuã</h3>
+                <span class="place_subtitle">Salvador - BA</span>
                 <span class="place_price">R$ 2199</span>
               </div>
             </div>
 
-            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
           </div>
 
           <!--- PLACES CARD 3-->
           <div class="place_card">
-            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+            <img src="assets/img/praia-da-luz.jpg" alt="" class="place_img" />
 
             <div class="place_content">
               <span class="place_rating">
@@ -296,18 +339,24 @@
               </span>
 
               <div class="place_data">
-                <h3 class="place_title">Bali</h3>
-                <span class="place_subtitle">Indonesia</span>
+                <h3 class="place_title">Praia da Luz</h3>
+                <span class="place_subtitle">Portugal</span>
                 <span class="place_price">R$ 2199</span>
               </div>
             </div>
 
-            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
           </div>
 
           <!--- PLACES CARD 4-->
           <div class="place_card">
-            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+            <img
+              src="assets/img/praia-da-nazare.jpg"
+              alt=""
+              class="place_img"
+            />
 
             <div class="place_content">
               <span class="place_rating">
@@ -316,18 +365,20 @@
               </span>
 
               <div class="place_data">
-                <h3 class="place_title">Bali</h3>
-                <span class="place_subtitle">Indonesia</span>
+                <h3 class="place_title">Praia da Nazaré</h3>
+                <span class="place_subtitle">Portugal</span>
                 <span class="place_price">R$ 2199</span>
               </div>
             </div>
 
-            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
           </div>
 
           <!--- PLACES CARD 5-->
           <div class="place_card">
-            <img src="assets/img/thayran.jpg" alt="" class="place_img">
+            <img src="assets/img/praia-grande.jpg" alt="" class="place_img" />
 
             <div class="place_content">
               <span class="place_rating">
@@ -336,13 +387,36 @@
               </span>
 
               <div class="place_data">
-                <h3 class="place_title">Bali</h3>
-                <span class="place_subtitle">Indonesia</span>
+                <h3 class="place_title">Praia Grande</h3>
+                <span class="place_subtitle">São Paulo</span>
                 <span class="place_price">R$ 2199</span>
               </div>
             </div>
 
-            <button class="button button--flex place_button"><i class="ri-arrow-right-line"></i></button>
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <!--- PLACES CARD 6-->
+          <div class="place_card">
+            <img src="assets/img/praia-joatinga.jpg" alt="" class="place_img" />
+
+            <div class="place_content">
+              <span class="place_rating">
+                <i class="ri-star-line place_rating-icon"></i>
+                <span class="place_rating-number">4,8</span>
+              </span>
+
+              <div class="place_data">
+                <h3 class="place_title">Praia Joatinga</h3>
+                <span class="place_subtitle">Santa Catarina</span>
+                <span class="place_price">R$ 2199</span>
+              </div>
+            </div>
+
+            <button class="button button--flex place_button">
+              <i class="ri-arrow-right-line"></i>
+            </button>
           </div>
         </div>
       </section>
@@ -351,11 +425,17 @@
       <section class="subscribe section">
         <div class="subscribe_bg">
           <div class="subscribe_container container">
-            <h2 class="section_title subscribe_title">Se inscreva para receber <br>nossas novidades.</h2>
+            <h2 class="section_title subscribe_title">
+              Se inscreva para receber <br />nossas novidades.
+            </h2>
             <p class="subscribe_description">Se inscreva</p>
 
             <form action="" class="subscribe_form">
-              <input type="text" placeholder='Digite seu email' class="subscribe_input">
+              <input
+                type="text"
+                placeholder="Digite seu email"
+                class="subscribe_input"
+              />
 
               <button class="button">Se inscreva</button>
             </form>
@@ -367,27 +447,22 @@
       <section class="sponsor section">
         <div class="sponsor_container container grid">
           <div class="sponsor_content">
-            <img src="assets/img/sponsor1.png" alt="" class="sponsor_img">
+            <img src="assets/img/sponsor1.png" alt="" class="sponsor_img" />
           </div>
           <div class="sponsor_content">
-            <img src="assets/img/sponsors2.png" alt="" class="sponsor_img">
+            <img src="assets/img/sponsors2.png" alt="" class="sponsor_img" />
           </div>
           <div class="sponsor_content">
-            <img src="assets/img/sponsors3.png" alt="" class="sponsor_img">
+            <img src="assets/img/sponsors3.png" alt="" class="sponsor_img" />
           </div>
           <div class="sponsor_content">
-            <img src="assets/img/sponsors4.png" alt="" class="sponsor_img">
+            <img src="assets/img/sponsors4.png" alt="" class="sponsor_img" />
           </div>
           <div class="sponsor_content">
-            <img src="assets/img/sponsors5.png" alt="" class="sponsor_img">
+            <img src="assets/img/sponsors5.png" alt="" class="sponsor_img" />
           </div>
-
-          
-          
         </div>
       </section>
-
-      
     </main>
     <!--FOOTER-->
     <footer class="footer section">
@@ -411,7 +486,7 @@
               </a>
               <a href="" target="_blank" class="footer_social">
                 <i class="ri-youtube-fill"></i>
-              </a>              
+              </a>
             </div>
           </div>
 
@@ -420,9 +495,6 @@
             <ul>
               <li class="footer_item">
                 <a href="#" class="footer_link">Sobre nós</a>
-              </li>
-              <li class="footer_item">
-                <a href="#" class="footer_link">Features</a>
               </li>
               <li class="footer_item">
                 <a href="#" class="footer_link">Novidades</a>
@@ -458,22 +530,31 @@
                 <a href="#" class="footer_link">Contato</a>
               </li>
             </ul>
-          </div>       
-
-         
+          </div>
         </div>
 
         <div class="footer_rights">
-          <p class="footer_copy">@2021 Matheus Henrique de Oliveira. Todos os direitos Reservados.</p>
+          <p class="footer_copy">
+            @2021 Matheus Henrique de Oliveira. Todos os direitos Reservados.
+          </p>
           <div class="footer_terms">
             <a href="#" class="footer_terms-link">Termos & Acordos</a>
-            <a href="#" class="footer_terms-link">Politica de privacidade</a>            
+            <a href="#" class="footer_terms-link">Politica de privacidade</a>
           </div>
         </div>
       </div>
     </footer>
 
+    <!--JQUERY SCROLL SMOOTH-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <!--SCROLL UP-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup_icon"></i>
+    </a>
+
     <!--SCROLL REVEAL-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!--SWIPPER JS-->
     <script src="assets/js/swiper-bundle.min.js"></script>
